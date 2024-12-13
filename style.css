@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Main Header */
+.main-header {
+    background-color: #004F90;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-header .name {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.main-header .profession {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main-header .contact {
+    font-size: 16px;
+}
+
+.main-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-header .profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: #004F90;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 30px;
+    color: #004F90;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 30px;
+    color: #004F90;
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    list-style-type: none;
+}
+
+.projects li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #004F90;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 15px;
+    background-color: #004F90;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
